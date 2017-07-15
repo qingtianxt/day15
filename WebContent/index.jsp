@@ -13,5 +13,10 @@
 	<a href="${pageContext.request.contextPath }/js_ajax/get.jsp">get请求</a><br>
 	<a href="${pageContext.request.contextPath }/js_ajax/post.jsp">get请求</a><br>
 	<a href="${pageContext.request.contextPath }/demo1.jsp">案例1 用户名是否占用</a><br>
+	<hr>
+	jquery的ajax<br>
+	
+	<a href="${pageContext.request.contextPath }/jquery_ajax/ajax.jsp">ajax四种方式</a><br>
+	<a href="${pageContext.request.contextPath }/demo2.jsp">案例2 用户名是否占用</a><br>
 </body>
 </html>

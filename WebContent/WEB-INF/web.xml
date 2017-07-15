@@ -39,4 +39,14 @@
     <servlet-name>CheckUsername4AjaxServlet</servlet-name>
     <url-pattern>/checkUsername4Ajax</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>JqueryAjaxServlet</display-name>
+    <servlet-name>JqueryAjaxServlet</servlet-name>
+    <servlet-class>jqueryAjaxServlet.JqueryAjaxServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>JqueryAjaxServlet</servlet-name>
+    <url-pattern>/jqueryAjax</url-pattern>
+  </servlet-mapping>
 </web-app>
