@@ -49,4 +49,14 @@
     <servlet-name>JqueryAjaxServlet</servlet-name>
     <url-pattern>/jqueryAjax</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SearchKwServlet</display-name>
+    <servlet-name>SearchKwServlet</servlet-name>
+    <servlet-class>servlet.SearchKwServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchKwServlet</servlet-name>
+    <url-pattern>/searchKw</url-pattern>
+  </servlet-mapping>
 </web-app>

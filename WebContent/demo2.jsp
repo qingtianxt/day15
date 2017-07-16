@@ -19,7 +19,6 @@
 				if(d==1){
 					$("#username_msg").html($("<font color='green'>用户名可以使用</font>"))
 				}else{
-					
 					$("#username_msg").html($("<font color='red'>用户名已被占用</font>"))
 				}
 			})
