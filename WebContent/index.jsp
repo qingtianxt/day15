@@ -4,6 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- json练习 -->
+<!-- <script type="text/javascript">
+	var json ={"username":"tom","age":18};
+	alert(json.age);
+</script> -->
 <title>Insert title here</title>
 </head>
 <body>
@@ -18,5 +23,7 @@
 	
 	<a href="${pageContext.request.contextPath }/jquery_ajax/ajax.jsp">ajax四种方式</a><br>
 	<a href="${pageContext.request.contextPath }/demo2.jsp">案例2 用户名是否占用</a><br>
+	<a href="${pageContext.request.contextPath }/demo3.jsp">案例3 模仿百度搜索</a><br>
+	<a href="${pageContext.request.contextPath }/demo4.jsp">案例4 省市联动</a><br>
 </body>
 </html>

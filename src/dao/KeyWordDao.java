@@ -12,7 +12,7 @@ public class KeyWordDao {
 
 	public List<Object> findKw4Ajax(String kw) throws SQLException {
 		QueryRunner qr = new QueryRunner(DataSourceUtils.getDataSource());
-		String sql = "select kw from keyword where kw like ? limit 5";
+		String sql = "select kw from keyword where kw like ?";
 		
 		return qr.query(sql, new ColumnListHandler("kw"),"%"+kw+"%");
 		

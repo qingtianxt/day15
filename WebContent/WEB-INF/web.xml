@@ -59,4 +59,24 @@
     <servlet-name>SearchKwServlet</servlet-name>
     <url-pattern>/searchKw</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SelectProServlet</display-name>
+    <servlet-name>SelectProServlet</servlet-name>
+    <servlet-class>servlet.SelectProServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SelectProServlet</servlet-name>
+    <url-pattern>/selectPro</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SelectCityServlet</display-name>
+    <servlet-name>SelectCityServlet</servlet-name>
+    <servlet-class>servlet.SelectCityServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SelectCityServlet</servlet-name>
+    <url-pattern>/selectCity</url-pattern>
+  </servlet-mapping>
 </web-app>
